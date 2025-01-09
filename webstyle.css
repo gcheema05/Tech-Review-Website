@@ -1,0 +1,256 @@
+body {
+	background-color: black;
+	padding-left: 50px;
+    padding-right: 50px;
+}
+
+header {
+	background-color: black;
+	text-align:center;
+	position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+	text-align:center;
+	background-color: #ffde59;
+	padding: 10px;
+	border-radius: 10px;
+	font-family: monospace;
+	font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffde59;
+    background-color: black;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    background-color: #ffde59;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.heroImageSize {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+	color: black;
+	background-color: #ffde59;
+	padding: 5px;
+	border-radius: 10px;
+	display: inline;
+	font-family: monospace;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+p {
+	color: white;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: left;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: #ffde59;
+}
+
+table {
+	width: 100%;
+	font-family: monospace;
+	text-align: center;
+}
+
+table th {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+table tr{
+	color: #ffde59;
+	font-size: 18px;
+}
+
+table td {
+	color: white;
+	font-size: 16px;
+	padding: 10px;
+}
+
+img {
+	border-radius: 10px;
+}
+
+td a {
+	background-color: #1F2626;
+	color: #ffde59;
+	font-family: monospace;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+}
+td a:hover {
+	background-color: #ffde59;
+	color: #1F2626;
+	font-family: monospace;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+h3 {
+	background-color: #1F2626; 
+	padding: 10px; 
+	border-radius: 10px;
+	color: #ffde59;
+	font-family: monospace;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+footer {
+	background-color: #1F2626;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: monospace;
+    text-align: center;
+}
+
+footer small {
+	color: #ffde59;
+}
+
+footer a {
+	text-decoration: none;
+	font-family: monospace;
+	font-weight: normal;
+}
+
+footer h2 {
+	color: #ffde59;
+	padding-left: 10px;
+}
+
+footer table {
+	color: white;
+	font-family: monospace;
+	font-weight: normal;
+}
+
+footer hr {
+	width: 10;
+	size: 10;
+}
+
+small {
+	color: white;
+}
+
+label {
+	font-family: monospace;
+	font-size: 18px;
+	color: #ffde59;
+	padding: 10px;
+}
+
+div.sumbitButton {
+	text-align: center;
+}
+
+div.sumbitButton a {
+	background-color: #1F2626;
+	color: #ffde59;
+	font-family: monospace;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+div.sumbitButton a:hover {
+	background-color: #ffde59;
+	color: #1F2626;
+	font-family: monospace;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+textarea {
+	font-size: 16px;
+	padding: 5px;
+	resize: none;
+}
+
+div.errorPage {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+div.errorPage a {
+	background-color: #1F2626;
+	color: #ffde59;
+	font-family: monospace;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+div.errorPage a:hover {
+	background-color: #ffde59;
+	color: #1F2626;
+	font-family: monospace;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+
+div.errorPage h2 {
+	text-align: center;
+	font-family: monospace;
+	color: white;
+	font-size: 32px;
+}
+
+div.errorPage p {
+	text-align: center;
+	font-size: 16px;
+	font-family: monospace;
+}
